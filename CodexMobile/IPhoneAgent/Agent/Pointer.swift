@@ -1,4 +1,5 @@
 import Foundation
+import UIKit
 
 /// Touch-like gestures on the phone, built from relative mouse moves. Port of phone.py.
 ///
@@ -290,7 +291,16 @@ import Foundation
         try await device.send("scroll \(lines) 0")
     }
 
-    func type(_ text: String) async throws { try await device.send("type \(text)") }
+    func type(_ text: String) async throws {
+        guard !text.allSatisfy(\.isASCII) else {
+            try await device.send("type \(text)")
+            return
+        }
+        // The board's USB keyboard can only press ASCII keycodes. For Chinese, emoji, etc. put the text on
+        // the pasteboard and send the user's Cmd+V shortcut: iOS pastes it into the focused field.
+        UIPasteboard.general.string = text
+        try await device.send("key cmd+v")
+    }
     func key(_ combo: String) async throws { try await device.send("key \(combo)") }
     /// The board's consumer-control Home key ("AC Home"), which iOS treats like a keyboard's home key. Boards
     /// without it (older firmware) answer an error: then Cmd+H and the flick up from the home bar (a flick, not
