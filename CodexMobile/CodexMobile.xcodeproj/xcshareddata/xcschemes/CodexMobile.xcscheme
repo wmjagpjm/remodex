@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1600"
-   version = "1.3">
+   LastUpgradeVersion = "1430"
+   version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
-      buildImplicitDependencies = "YES">
+      buildImplicitDependencies = "YES"
+      runPostActionsOnFailure = "NO">
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -14,9 +15,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C09A76AD2F4B8D7B003B3F3A"
-               BuildableName = "CodexMobile.app"
-               BlueprintName = "CodexMobile"
+               BlueprintIdentifier = "5983F0E1632FA0FDDDEAB3FC"
+               BuildableName = "IPhoneAgent.app"
+               BlueprintName = "IPhoneAgent"
                ReferencedContainer = "container:CodexMobile.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -25,26 +26,12 @@
             buildForRunning = "NO"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "75087BFA4D34C41906650C95"
-               BuildableName = "CodexMobileTests.xctest"
-               BlueprintName = "CodexMobileTests"
-               ReferencedContainer = "container:CodexMobile.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4DA12F4370C3EC1B9280A66F"
-               BuildableName = "CodexMobileUITests.xctest"
-               BlueprintName = "CodexMobileUITests"
+               BlueprintIdentifier = "18572F489CB05524CA0AD23E"
+               BuildableName = "IPhoneAgentTests.xctest"
+               BlueprintName = "IPhoneAgentTests"
                ReferencedContainer = "container:CodexMobile.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -54,38 +41,32 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      onlyGenerateCoverageForSpecifiedTargets = "NO">
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C09A76AD2F4B8D7B003B3F3A"
-            BuildableName = "CodexMobile.app"
-            BlueprintName = "CodexMobile"
+            BlueprintIdentifier = "5983F0E1632FA0FDDDEAB3FC"
+            BuildableName = "IPhoneAgent.app"
+            BlueprintName = "IPhoneAgent"
             ReferencedContainer = "container:CodexMobile.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
          <TestableReference
-            skipped = "NO">
+            skipped = "NO"
+            parallelizable = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "75087BFA4D34C41906650C95"
-               BuildableName = "CodexMobileTests.xctest"
-               BlueprintName = "CodexMobileTests"
-               ReferencedContainer = "container:CodexMobile.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4DA12F4370C3EC1B9280A66F"
-               BuildableName = "CodexMobileUITests.xctest"
-               BlueprintName = "CodexMobileUITests"
+               BlueprintIdentifier = "18572F489CB05524CA0AD23E"
+               BuildableName = "IPhoneAgentTests.xctest"
+               BlueprintName = "IPhoneAgentTests"
                ReferencedContainer = "container:CodexMobile.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <CommandLineArguments>
+      </CommandLineArguments>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -96,15 +77,14 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-      allowLocationSimulation = "YES"
-      queueDebuggingEnabled = "No">
+      allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C09A76AD2F4B8D7B003B3F3A"
-            BuildableName = "CodexMobile.app"
-            BlueprintName = "CodexMobile"
+            BlueprintIdentifier = "5983F0E1632FA0FDDDEAB3FC"
+            BuildableName = "IPhoneAgent.app"
+            BlueprintName = "IPhoneAgent"
             ReferencedContainer = "container:CodexMobile.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -119,9 +99,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C09A76AD2F4B8D7B003B3F3A"
-            BuildableName = "CodexMobile.app"
-            BlueprintName = "CodexMobile"
+            BlueprintIdentifier = "5983F0E1632FA0FDDDEAB3FC"
+            BuildableName = "IPhoneAgent.app"
+            BlueprintName = "IPhoneAgent"
             ReferencedContainer = "container:CodexMobile.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
