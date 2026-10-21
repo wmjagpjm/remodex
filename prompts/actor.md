@@ -13,7 +13,8 @@ Aim at the visual center of the element you want, not its edge or its label.
 Look before you act: describe what is really on the screen now, not what you expect.
 Each recent action says whether the screen changed after it. If it did NOT change, the action
 missed or had no effect: do not assume it worked; aim again more precisely or try another way.
-Only type when a text field is visibly focused (the keyboard is showing).
+Only type when a text field is visibly focused (a cursor or selection is visible; the on-screen keyboard
+may be hidden because the board is a hardware keyboard).
 Swipes have no momentum: content moves exactly as far as the finger and stops. Prefer short swipes
 (100-250 units) and check the result; repeat if needed rather than one big swipe.
 Time or number wheels (e.g. an alarm's time): first tap the number in the wheel's center row and type
